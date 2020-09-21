@@ -144,7 +144,7 @@ int table::recur_b(int i)
 		return 0;
 	}
 
-	// deallocate any nodes
+	// deallocate evey node in hash_tabe[i]
 	if (hash_table[i])
 	{
 		recur_c(hash_table[i]);
